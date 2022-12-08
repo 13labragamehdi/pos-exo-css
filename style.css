@@ -1,0 +1,52 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 900px;
+    background-color: aquamarine;
+    aspect-ratio: 1;
+    position: relative
+}
+
+.box
+{
+    width: 300px;
+    aspect-ratio: 1;
+    position: absolute;
+}
+
+.blue
+{
+    background-color: blue;
+    top: 0%;
+    right: 0%;
+}
+.red
+{
+    background-color: red;
+    right: 0%;
+    bottom: 0%;
+}
+.yellow
+{
+    background-color: yellow;
+    bottom: 0%;
+    left: 0%;
+}
+.green
+{
+    background-color: green;
+    top: 0%;
+    left: 0%;
+}
+.orange
+{
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
